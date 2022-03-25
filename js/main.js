@@ -72,6 +72,10 @@
         $('html, body').animate({
             scrollTop: $("#contacto").offset().top
         }, 1000);
+    });  $("#nosotrs").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#services").offset().top
+        }, 1000);
     });
     $(window).scroll(function () {
         if ($(window).width() > 834) {
