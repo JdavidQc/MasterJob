@@ -398,6 +398,7 @@ body {
   .gtco-features .col-lg-8 .row .col:first-child {
     margin-top: 50px;
   }
+ 
 }
 @media (max-width: 600px) {
   .gtco-features .col-lg-8 .col {
@@ -452,14 +453,14 @@ body {
 @media (max-width: 600px) {
   .gtco-numbers-block {
     margin-top: 100px;
+  }.car3{
+    margin-top:0px;
   }
 }
 @media (max-width: 1299px) {
   .gtco-numbers-block .row {
     max-width: 1000px;
     margin: 0 auto;
-  }.car3{
-    margin-top:0px;
   }
   .logo{
     width:100%;
@@ -468,9 +469,7 @@ body {
   .mapa{
     width: 100%;
   }
-  #ent{
-    font-size:12px;
-  }
+ 
 }
 @media (max-width: 767px) {
   .gtco-numbers-block .row .col-3 {
