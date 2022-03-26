@@ -89,6 +89,10 @@
         $('html, body').animate({
             scrollTop: $("#curso").offset().top
         }, 1000);
+    });$(".coach").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#coachs").offset().top
+        }, 1000);
     });
     $(window).scroll(function () {
         if ($(window).width() > 834) {
