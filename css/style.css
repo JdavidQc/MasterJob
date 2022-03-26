@@ -426,6 +426,9 @@ body {
   margin: 0 auto;
   transform: rotate(-20deg);
 }
+.car3{
+  margin-top:420px;
+}
 .gtco-features .col-lg-8 .card h3 {
   font-family: "Lato-Regular";
   font-size: 24px;
@@ -449,12 +452,15 @@ body {
   .gtco-numbers-block .row {
     max-width: 1000px;
     margin: 0 auto;
+  }.car3{
+    margin-top:0px;
   }
 }
 @media (max-width: 767px) {
   .gtco-numbers-block .row .col-3 {
     padding: 0;
   }
+ 
 }
 .gtco-numbers-block #custom-map::before {
   position: absolute;
