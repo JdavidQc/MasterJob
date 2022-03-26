@@ -550,7 +550,7 @@ body {
 
 .gtco-testimonials {
   position: relative;
-  margin-top: 200px;
+  margin-top: 100px;
 }
 @media (max-width: 767px) {
   .gtco-testimonials {
@@ -724,8 +724,9 @@ body {
 }
 .gtco-news .owl-carousel .owl-nav .owl-prev, .gtco-news .owl-carousel .owl-nav .owl-next {
   font-size: 120px;
-  color: #666666;
+  color: #ec663c;
   position: absolute;
+  border: none;
 }
 .gtco-news .owl-carousel .owl-nav .owl-prev {
   left: -50px;
