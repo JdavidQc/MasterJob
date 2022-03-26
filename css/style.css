@@ -453,7 +453,17 @@ body {
 @media (max-width: 600px) {
   .gtco-numbers-block {
     margin-top: 100px;
-  }.car3{
+    margin-top:0px;
+  }
+  
+}@media (max-width: 986px) {
+ 
+  .car3{
+    margin-top:420px;
+  }  
+}
+@media (max-width: 1199px) {
+  .car3{
     margin-top:0px;
   }
 }
@@ -524,18 +534,18 @@ body {
 }
 @media (max-width: 1299px) {
   .gtco-numbers-block h5 {
-    font-size: 48px;
+    font-size: 18px;
+  } .gtco-numbers-block h5 {
+    font-size: 20px;
   }
 }
 @media (max-width: 767px) {
-  .gtco-numbers-block h5 {
-    font-size: 24px;
-  }
+ 
 }
 @media (max-width: 600px) {
   .gtco-numbers-block h5 {
     margin: 0;
-    font-size: 18px;
+    font-size: 15px;
   }
 }
 .gtco-numbers-block p {
@@ -550,12 +560,12 @@ body {
 }
 @media (max-width: 991px) {
   .gtco-numbers-block p {
-    font-size: 16px;
+    font-size: 12px;
   }
 }
 @media (max-width: 991px) {
   .gtco-numbers-block p {
-    font-size: 16px;
+    font-size: 10px;
   }
 }
 @media (max-width: 600px) {
