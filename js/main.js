@@ -68,13 +68,26 @@
     })(jQuery);
 
 
-    $("#contact").click(function() {
+    $(".contact").click(function() {
         $('html, body').animate({
             scrollTop: $("#contacto").offset().top
         }, 1000);
-    });  $("#nosotrs").click(function() {
+    });  $(".nosotrs").click(function() {
         $('html, body').animate({
             scrollTop: $("#services").offset().top
+        }, 1000);
+    });
+    $(".politica").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#politicas").offset().top
+        }, 1000);
+    }); $(".inicio").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#gtco-main-nav").offset().top
+        }, 1000);
+    }); $(".cur").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#curso").offset().top
         }, 1000);
     });
     $(window).scroll(function () {
