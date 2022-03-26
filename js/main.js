@@ -76,6 +76,10 @@
         $('html, body').animate({
             scrollTop: $("#services").offset().top
         }, 1000);
+    }); $(".redes").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#red").offset().top
+        }, 1000);
     });
     $(".politica").click(function() {
         $('html, body').animate({
